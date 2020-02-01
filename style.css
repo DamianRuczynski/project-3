@@ -14,8 +14,15 @@ header {
 h1 {
     position: absolute;
     font-size: 4.6rem;
-    color: blanchedalmond;
+    color:#003153;
     right: 20%;
     top: 20%;
-    font-family: roboto;
+    font-family:roboto;
 }
+
+background-color
+{
+    color: #003153;
+
+}
+
