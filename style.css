@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2f3640;
   }
   
   li {
@@ -22,8 +22,17 @@ ul {
     background-color: #111;
   }
   .active {
-    background-color: #4CAF50;
+    background-color: #353b48;
   }
-p{
-    height: 2000px;
+body {
+    background-color: #b2bec3;
+}
+.moto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    width: 50%;
+    height: 21rem;
+    width: auto;
 }
