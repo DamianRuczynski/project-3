@@ -34,10 +34,12 @@ body {
     display:inside;
     position:right;
     
+    
 }
 .garaz
 {
-   position:left; z-index:left;
+    float: left;
+
 }
 @keyframes changecolor 
   {
