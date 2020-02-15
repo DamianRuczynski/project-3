@@ -1,6 +1,6 @@
 body
 {
-    background-color: white;
+    background-color: #d2dae2;
 }
 .menu {
   list-style-type: none;
@@ -44,8 +44,8 @@ body
 }
 .naglowek
 {
-  font-size: 60px;
-  padding-left:350px;
+  font-size: 50px;
+  padding-left: 19%;
 }
 .naglowek2
 {
@@ -55,15 +55,35 @@ body
 }
 .kontakt2
 {
-  padding-left: 40px;
-  background-color:
+  padding-left: 150px;
+  font-size: 45px;
 }
-.tekst1
+#tekst2
+ {
+  float:left;
+  width:50%;
+  margin-bottom:50px;
+  
+
+}
+
+#tekst1
 {
-  background-color: blue;
+  float:left;
+  width:50%;
+  margin-bottom:40px;
+ 
 }
-.tekst2
-{
-  background-color: blueviolet;
-  padding-left: 40px;
-}
+#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width:97%;
+  }
