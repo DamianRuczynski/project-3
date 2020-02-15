@@ -2,68 +2,38 @@ body
 {
     background-color: white;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2f3640;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  .active {
-    background-color:black;
-  }
-  h1
-  {
-      color: red;
-      font-size: 40px;
-      text-align: center;
-      
-  }
-  h2
-  {color: white;
-      text-align: center;
-      font-style:Courier;
-      font-size: 30px;
-  }
-  h3 
-  {
-      color: white;
-      text-align: center;
-      font-style:Courier;
-      font-size: 30px; 
-  }
- p 
- {
-      color:blanchedalmond ;
-      font-style:Courier;
-      font-size: 20px;
-      text-align: center
- }
- #naglowek
- {
-      background-color: tomato;
- }
- #tekst1
- {
-     
- }
- #link
- {
-    bottom: auto;
- }
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2f3640;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color:black;
+}
+
+.kontakt
+{
+   font-size: 24px;
+}
+h1
+{
+    font-size: 35px;
+}
