@@ -27,9 +27,53 @@
 
 body 
 {
-    background-color: white;
+    background-color: #d2dae2;
 }
 p
 {
     font-size: 30px;
+}
+.opis{
+  width: 35%;
+  margin-top: 8rem;
+  float: left;
+  color: white;
+  background-color: #2f3640;
+}
+.opis p{
+  text-align: center;
+  font-size: 1rem;
+}
+.opis .wstep{
+  text-align: center;
+  text-align: center;
+  padding: 4px 16px;
+  font-size: 2rem;
+}
+.zdjecia{
+  width: 65%;
+  float: left;
+}
+.zdjecia img{
+  width: 25rem;
+  height: auto;
+  padding: 8rem;
+}
+.miasto{
+  width: 100%;
+  margin-top: 8rem;
+  float: left;
+  color: white;
+}
+.miasto p{
+  text-align: center;
+  padding: 2rem;
+  float: left;
+  background-color: #2f3640;
+}
+.miasto img{
+  float: left; 
+  width: 25rem;
+  height: auto;
+  padding-left: 8rem;
 }
