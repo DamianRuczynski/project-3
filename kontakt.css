@@ -31,9 +31,39 @@ body
 
 .kontakt
 {
-   font-size: 24px;
+   font-size: 50px;
+   padding-left: 100px;
+   color:rgb(28, 19, 49);
+   
+   
 }
-h1
+.naglowek1
 {
-    font-size: 35px;
+    font-size: 45px;
+    padding-left: 150px ;
+}
+.naglowek
+{
+  font-size: 60px;
+  padding-left:350px;
+}
+.naglowek2
+{
+  padding-left: 200px;
+  font-size: 45px;
+  
+}
+.kontakt2
+{
+  padding-left: 40px;
+  background-color:
+}
+.tekst1
+{
+  background-color: blue;
+}
+.tekst2
+{
+  background-color: blueviolet;
+  padding-left: 40px;
 }
