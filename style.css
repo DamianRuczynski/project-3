@@ -31,8 +31,27 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
+<<<<<<< HEAD
     display: block;
     height: 21rem;
     width: auto;
+=======
+    display:inside;
+    position:right;
+>>>>>>> 0451a9994068eae6441ce5ac956f6484d416c7c3
     
 }
+.garaz
+{
+   position:left; z-index:left;
+}
+@keyframes changecolor 
+  {
+  from
+  {
+  background-color: #000000;
+  }
+  to 
+  {
+  background-color: #ff3b41;
+  }

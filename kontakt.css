@@ -55,7 +55,15 @@ ul {
       font-size: 20px;
       text-align: center
  }
- div
+ #naglowek
  {
-      display: inline-inside
+      background-color: tomato;
+ }
+ #tekst1
+ {
+     
+ }
+ #link
+ {
+    bottom: auto;
  }
