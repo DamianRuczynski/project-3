@@ -1,6 +1,9 @@
 body
 {
     background-color: #d2dae2;
+    background-image: url('kontakt.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .menu {
   list-style-type: none;
@@ -33,9 +36,7 @@ body
 {
    font-size: 50px;
    padding-left: 100px;
-   color:rgb(28, 19, 49);
-   
-   
+   color:red;
 }
 .naglowek1
 {
