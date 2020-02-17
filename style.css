@@ -49,7 +49,7 @@ body
 		color: white;
 		text-align: center;
     padding: 20px;
-    position: absolute;
+    position: relative;;
     left: 0;
     bottom: 0;
     height: 20px;
@@ -82,8 +82,18 @@ body
 }
 .info 
 {
-  color: red;
-  font-size: 30px;
-  padding: 10px;
+  background-image: linear-gradient(red,yellow);
+  font-size: 25px;
+  padding: 5px;
   text-align: center;
+  border: 1px solid black;
+  text-transform: capitalize;
+  text-shadow: 2px 1px blue;
+}
+.opis 
+{
+  font-size: 10px;
+  text-align: right;
+  color: #2f3640;
+  font-family :monospace;
 }
