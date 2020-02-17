@@ -30,7 +30,7 @@
 
 body
 {
-   background: -moz-linear-gradient(black,red);
+   background-color: whitesmoke;
 }
 .moto 
 {
@@ -79,4 +79,11 @@ body
   animation-iteration-count:1;
   animation-direction:left;
   
+}
+.info 
+{
+  color: red;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
 }
