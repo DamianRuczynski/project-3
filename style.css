@@ -51,7 +51,7 @@ body
     padding: 20px;
     position: relative;;
     left: 0;
-    bottom: 0;
+    bottom: -3;
     height: 20px;
     width: 97%;
   }
@@ -96,4 +96,9 @@ body
   text-align: right;
   color: #2f3640;
   font-family :monospace;
+}
+.short 
+{
+  font-size: 20px;
+
 }
