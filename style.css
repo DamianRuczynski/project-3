@@ -57,7 +57,8 @@ body
   }
 @keyframes wyjazd
 {
-  0% { margin-left: 0px;}
+  0% { margin-left: -400px;}
+  5% { margin-left: -200px;}
   10% {margin-left: 40px;}
   20% {margin-left: 80px;}
   30% {margin-left: 120px;}
@@ -100,5 +101,44 @@ body
 .short 
 {
   font-size: 20px;
-
+}
+.heder 
+{
+  font-size: 50px;
+  text-align: center;
+}
+.popular
+{
+  position: relative;
+  clear: both;
+  vertical-align:center ;
+  text-align: center;
+}
+.popular2
+{
+  position: absolute;
+  clear: both;
+  vertical-align: top;
+  float: left; 
+  width: 50%;
+  height:400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  display: inline-block;
+  z-index: 999;
+}
+.popular3
+{
+  position: relative;
+  height:auto;
+  width:50%;
+  height:400px;
+  clear:none;
+  vertical-align:right;
+  float:right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
