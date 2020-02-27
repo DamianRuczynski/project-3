@@ -77,3 +77,16 @@ p
   height: auto;
   padding-left: 8rem;
 }
+#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 97%;
+  }

@@ -1,6 +1,9 @@
 body
 {
-    background-color: white;
+    background-color: #d2dae2;
+    background-image: url('kontakt.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .menu {
   list-style-type: none;
@@ -31,9 +34,57 @@ body
 
 .kontakt
 {
-   font-size: 24px;
+   font-size: 50px;
+   padding-left: 100px;
+   color:red;
 }
-h1
+.naglowek1
 {
-    font-size: 35px;
+    font-size: 45px;
+    padding-left: 150px ;
 }
+.naglowek
+{
+  font-size: 50px;
+  padding-left: 19%;
+}
+.naglowek2
+{
+  padding-left: 200px;
+  font-size: 45px;
+  
+}
+.kontakt2
+{
+  padding-left: 150px;
+  font-size: 45px;
+}
+#tekst2
+ {
+  float:left;
+  width:50%;
+  margin-bottom:50px;
+  
+
+}
+
+#tekst1
+{
+  float:left;
+  width:50%;
+  margin-bottom:40px;
+ 
+}
+#footer
+	{
+		clear: both;
+		background-color: black;
+		color: white;
+		text-align: center;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width:97%;
+  }
