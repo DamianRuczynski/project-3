@@ -2,7 +2,7 @@
 {
   list-style-type: none;
   margin: 0;
-  padding: 2px;
+  padding: 1rem;
   overflow: hidden;
   background-color: #2f3640;
 }
@@ -16,7 +16,7 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 19px 40px;
+  padding: 1rem 3rem;
   text-decoration: none;
 }
 
@@ -34,12 +34,12 @@ body
 }
 .moto 
 {
-    margin-left: 400px;
+    margin-left: 60rem;
     margin-right: auto;
     padding-top: 5%;
     display: block;
 }
-#footer
+.footer
 	{
 		clear: both;
 		background-color: black;
@@ -69,10 +69,10 @@ body
 }
 .moto
 {
-  padding: 10px 120px;
+  padding: 1rem 7rem;
   background-color:none ;
   color: #fff;
-  width: 791px;
+  width: 7rem;
   height: auto;
   animation-name: wyjazd;
   animation-duration: 1s;
@@ -83,31 +83,27 @@ body
 .info 
 {
   background-image: linear-gradient(red,yellow);
-  font-size: 25px;
-  padding: 5px;
+  font-size: 2rem;
+  padding: 1rem;
   text-align: center;
-  border: 1px solid black;
+  border: 0.1rem solid black;
   text-transform: capitalize;
-  text-shadow: 2px 1px blue;
+  text-shadow: 0.8rem 0.5rem blue;
 }
 .opis 
 {
-  font-size: 10px;
+  font-size: 1rem;
   text-align: right;
   color: #2f3640;
   font-family :monospace;
 }
 .short 
 {
-  font-size: 20px;
-<<<<<<< HEAD
-
-}
-=======
+  font-size: 1rem;
 }
 .heder 
 {
-  font-size: 50px;
+  font-size: 3rem;
   text-align: center;
 }
 .popular
@@ -124,11 +120,11 @@ body
   vertical-align: top;
   float: left; 
   width: 50%;
-  height:400px;
+  height:24rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 1rem;
   display: inline-block;
   z-index: 999;
 }
@@ -137,7 +133,7 @@ body
   position: relative;
   height:auto;
   width:50%;
-  height:400px;
+  height:24rem;
   clear:none;
   vertical-align:right;
   float:right;
@@ -145,4 +141,3 @@ body
   align-items: center;
   justify-content: center;
 }
->>>>>>> 42ee4ec0cf320df6277c0bf93989d05e1036ffe1
