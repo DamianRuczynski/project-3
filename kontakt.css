@@ -2,7 +2,7 @@
 {
   list-style-type: none;
   margin: 0;
-  padding: 2px;
+  padding: 0,125rem;
   overflow: hidden;
   background-color: #2f3640;
 }
@@ -16,11 +16,12 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 19px 40px;
+  padding: 1rem 2rem;
   text-decoration: none;
 }
 
-.menu li a:hover {
+.menu li a:hover
+{
   background-color: #111;
 }
 .active 
@@ -30,32 +31,31 @@
 
 .kontakt
 {
-   font-size: 50px;
-   padding-left: 100px;
+   font-size: 3rem ;
+   padding-left: 6rem;
    color:red;
 }
 .naglowek1
 {
-    font-size: 45px;
-    padding-left: 150px ;
+    font-size: 3rem;
+    padding-left: 9rem ;
 }
 .naglowek
 {
-  font-size: 50px;
+  font-size: 3rem;
   padding-left: 19%;
 }
 .naglowek2
 {
-  padding-left: 200px;
-  font-size: 45px;
-  
+  padding-left: 12rem;
+  font-size: 3rem; 
 }
 .kontakt2
 {
-  padding-left: 150px;
-  font-size: 45px;
+  padding-left: 9rem;
+  font-size: 3rem;
 }
-#tekst2
+.tekst2
  {
   float:left;
   width:50%;
@@ -64,27 +64,27 @@
 
 }
 
-#tekst1
+.tekst1
 {
   float:left;
   width:50%;
-  margin-bottom:40px;
+  margin-bottom: 2rem;
  
 }
-#footer
+.footer
 	{
 		clear: both;
 		background-color: black;
 		color: white;
 		text-align: center;
-    padding: 20px;
+    padding: 1rem;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 20px;
+    height: 1rem;
     width:97%;
   }
-  #zdjencie
+  .zdjencie
   { 
     background: url(zdj/kontakt.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
