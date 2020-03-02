@@ -1,0 +1,70 @@
+.menu 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0,125rem;
+  overflow: hidden;
+  background-color: #2f3640;
+}
+
+.menu li 
+{
+  float: left;
+}
+.menu li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.menu li a:hover
+{
+  background-color: #111;
+}
+.active 
+{
+  background-color:black;
+}
+.wstep
+{
+    text-align: center;
+    background-color: #2f3640;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    width: 75%;
+    margin: 8rem 10%;
+}
+img
+{
+    position: static;
+    width: 100%;
+    height: auto;
+    z-index: -5;
+    overflow: hidden;
+}
+.tlo
+{
+    position: relative;
+    margin: 2rem;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.footer
+{
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+    padding: 1rem;
+    position: relative;
+    margin-top: 2rem;
+    left: 0;
+    bottom: -3;
+    height: 1rem;
+    width: auto;
+}

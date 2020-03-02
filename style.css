@@ -2,7 +2,7 @@
 {
   list-style-type: none;
   margin: 0;
-  padding: 1rem;
+  padding: 0,125rem;
   overflow: hidden;
   background-color: #2f3640;
 }
@@ -16,11 +16,12 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   text-decoration: none;
 }
 
-.menu li a:hover {
+.menu li a:hover
+{
   background-color: #111;
 }
 .active 
