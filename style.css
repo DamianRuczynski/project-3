@@ -46,7 +46,7 @@ body
 		color: white;
 		text-align: center;
     padding: 20px;
-    position: relative;;
+    position: relative;
     left: 0;
     bottom: -3;
     height: 20px;
@@ -54,8 +54,8 @@ body
   }
 @keyframes wyjazd
 {
-  0% { margin-left: -400px;}
-  5% { margin-left: -200px;}
+  0% { margin-left: -0rem;}
+  5% { margin-left: -10rem;}
   10% {margin-left: 40px;}
   20% {margin-left: 80px;}
   30% {margin-left: 120px;}
@@ -72,7 +72,7 @@ body
   padding: 1rem 7rem;
   background-color:none ;
   color: #fff;
-  width: 7rem;
+  width: 50rem;
   height: auto;
   animation-name: wyjazd;
   animation-duration: 1s;
@@ -84,11 +84,11 @@ body
 {
   background-image: linear-gradient(red,yellow);
   font-size: 2rem;
-  padding: 1rem;
+  padding: 1px;
   text-align: center;
-  border: 0.1rem solid black;
+  border: 1px solid black;
   text-transform: capitalize;
-  text-shadow: 0.8rem 0.5rem blue;
+  text-shadow: 1px 1px blue;
 }
 .opis 
 {
@@ -100,44 +100,4 @@ body
 .short 
 {
   font-size: 1rem;
-}
-.heder 
-{
-  font-size: 3rem;
-  text-align: center;
-}
-.popular
-{
-  position: relative;
-  clear: both;
-  vertical-align:center ;
-  text-align: center;
-}
-.popular2
-{
-  position: absolute;
-  clear: both;
-  vertical-align: top;
-  float: left; 
-  width: 50%;
-  height:24rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 1rem;
-  display: inline-block;
-  z-index: 999;
-}
-.popular3
-{
-  position: relative;
-  height:auto;
-  width:50%;
-  height:24rem;
-  clear:none;
-  vertical-align:right;
-  float:right;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+} 
