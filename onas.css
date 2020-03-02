@@ -25,7 +25,7 @@
 }
 .active 
 {
-  background-color:black;
+  background-color:#111;
 }
 body 
 {
@@ -36,30 +36,25 @@ p
     font-size: 2rem;
 }
 .opis{
-  width: 35%;
+  width: 100%;
   margin-top: 8rem;
   float: left;
   color: white;
+}
+.opis p {
+  width: 35%;
+  text-align: center;
+  padding: 2rem;
+  float: left;
   background-color: #2f3640;
 }
-.opis p{
-  text-align: center;
-  font-size: 1rem;
-}
-.opis .wstep{
-  text-align: center;
-  text-align: center;
-  padding: 0.25rem 1rem;
-  font-size: 2rem;
-}
-.zdjecia{
-  width: 65%;
-  float: left;
-}
-.zdjecia img{
-  width: 25rem;
+.opis img{
+  float: left; 
+  width: 30rem;
   height: auto;
-  padding: 8rem;
+  align: center;
+  padding: 2rem;
+  padding-left: 8rem;
 }
 .miasto{
   width: 100%;
@@ -68,6 +63,7 @@ p
   color: white;
 }
 .miasto p{
+  width: 35%;
   text-align: center;
   padding: 2rem;
   float: left;
