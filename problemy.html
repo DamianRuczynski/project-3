@@ -6,27 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-eguiv="X-UA-Compatible" content="ie=edge" />
     <title>Kontakt</title>
-    <link rel="stylesheet" href="problemy.css">
+    <link rel="stylesheet" href="problemy.css">  
 </head>
 
 <body>
-    <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="nowosci.html">Nowości</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="onas.html">O nas</a></li>
-        <li><a class="active" href="problemy.html">Problemy</a></li>
-    </ul>
-    <div class="tlo">
+    <div class="containter">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nowosci.html">Nowości</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="onas.html">O nas</a></li>
+            <li><a class="active" href="problemy.html">Problemy</a></li>
+        </ul>
+
         <div class="wstep">
             <h1>Hej !!<br> Masz jakiś problem i nie wiesz jak go rozwiązać?</h1>
             <h2>Odwiedz nasze forum i zamieść publiczny komentarz, a my i nasza społeczność na pewno Ci pomożemy!
             </h2>
-            <img src="zdj/tloProblem.jpg">
+            <h2>Formularz kontaktowy</h2>
+            <div id="send_form_status"></div>
+            <form method="post" action="/send_form.php" id="contact_form">
+                <div><label for="name">Imię i nazwisko</label></div>
+                <div><input type="text" name="name" id="name" class="formField" /></div>
+                <div><label for="phone">Numer telefonu</label></div>
+                <div><input type="text" name="phone" id="phone" class="formField" /></div>
+                <div><label for="email">Adres email</label></div>
+                <div><input type="text" name="email" id="email" class="formField" /></div>
+                <div><label for="message">Treść wiadomości</label></div>
+                <div><textarea name="message" id="message" class="formField"></textarea></div>
+                <div><button id="sendBtn">Wyślij</button></div>
+            </form>
         </div>
-    </div>
-    <div class="footer">
-        Wszelkie prawa zastrzżone DanD 2020 &copy;
+        <div class="footer">
+            Wszelkie prawa zastrzżone DanD 2020 &copy;
+        </div>
     </div>
 
 </body>
