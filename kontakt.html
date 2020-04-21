@@ -7,44 +7,83 @@
     <meta http-eguiv="X-UA-Compatible" content="ie=edge" />
     <title>Kontakt</title>
     <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="timer.js"></script>
 </head>
 
-<body class="zdjencie">
-    <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="nowosci.html">Nowości</a></li>
-        <li><a class="active" href="kontakt.html">Kontakt</a></li>
-        <li><a href="onas.html">O nas</a></li>
-        <li><a href="problemy.html">Problemy</a></li>
-    </ul>>
-    <div class="naglowek">
-        <h1 class="naglowek">Informacje Kontaktowe</h1>
-    </div>
+    <body onload="odliczanie();">
+        
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sklep.html">Sklep</a></li>
+            <li><a class="active" href="kontakt.html">Kontakt</a></li>
+            <li><a href="onas.html">O nas</a></li>
+            <li><a href="problemy.html">Problemy</a></li>
+        </ul>
+    
 
-    <div class="tekst1">
-        <h1 class="naglowek1"> Kontakt zdalny </h1>
-        <ul class="kontakt">
-            <li><mark id="marki">Email - dand@wp.pl </mark> </li>
-            <li><mark>Telefon +48 883110801</mark> </li>
-            <li><mark>Telefon +48 511388146</mark> </li>
-            <li><mark>www.dand.pl </mark> </li>
-        </ul>
-    </div>
-    <div class="tekst2">
-        <h1 class="naglowek2">Kontakt bezpośredni </h1>
-        <ul class="kontakt2">
-            <li><mark>Biuro <a class="linki" target="_blank"
-                        href="https://www.google.com/maps/place/51%C2%B020'17.0%22N+22%C2%B030'02.5%22E/@51.3263872,22.3947161,11.25z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d51.3380463!4d22.5007036?hl=pl-PL">Majdan
-                        Krasieniński </mark></a></li>
-            <li><mark>Magazyn <a class="linki" target="_blank"
-                        href="https://www.google.com/maps/place/51%C2%B019'58.1%22N+22%C2%B030'19.9%22E/@51.327821,22.4155269,11.5z/data=!4m6!3m5!1s0x0:0x0!7e2!8m2!3d51.3328153!4d22.5055285?hl=pl-PL">
-                        Smugi </mark></a></li>
-            <li><mark>21-003 Jastków </mark></li>
-        </ul>
-    </div>
-    <div class="footer">
-        Wszelkie prawa zastrzżone DanD 2020 &copy;
-    </div>
-</body>
+        <div id="container">
+
+            <div class="rectangle">
+                <div id="logo"><a href="logo.jpg" class="tilelinkhtml5">Informacje Kontaktowe</a></div>
+                <div id="zegar">12:00:00</div>
+                <div style="clear: both;"></div>
+            </div>
+
+            <div class="square">
+                <div class="tile1">
+                    <a href="kim-jestresmy" class="tilelink"><i class="icon-user"></i><br />Kim jesteśmy ? <br> Nasza
+                        firma zajmuje się ....</a>
+                </div>
+                <a href="oferty" class="tilelinkhtml5">
+                    <div class="tile1">
+                        <i class="icon-laptop"></i><br />Co oferujemy?
+                    </div>
+                </a>
+                <div style="clear:both;"></div>
+
+                <div class="tile2">
+                    <a href="dlaczegomy" class="tilelink"><i class="icon-graduation-cap"></i><br />Dlaczego My ?</a>
+                </div>
+                <div class="tile3">
+                    <a href="kontakt-programista-php" class="tilelink"><i class="icon-mail"></i><br />Kontakt z nami</a>
+                </div>
+                <div style="clear:both;"></div>
+
+                <div class="tile4">
+                    <i>Taniej jest mieć 35 motocykli i jedną kobietę, niż 35 kobiet i jeden motocykl.</i><br />
+                </div>
+            </div>
+            <div class="square">
+                <div class="tile5">
+                    Kontakt bezpośredni<br /><br /> Magazyn
+                    <a href="https://www.google.com/maps/place/Smugi+29B,+21-002+Smugi/@51.3253348,22.4732076,11.25z/data=!4m5!3m4!1s0x47225b74a84cf619:0xd0855e76783ca928!8m2!3d51.332781!4d22.5054829">Smugi
+                        29B</a> <br> Biuro
+                    <a href="https://www.google.com/maps/place/Majdan+Krasieni%C5%84ski+7D,+21-025/@51.3240539,22.4852101,11.63z/data=!4m13!1m7!3m6!1s0x47225b74a84cf619:0xd0855e76783ca928!2sSmugi+29B,+21-002+Smugi!3b1!8m2!3d51.332781!4d22.5054829!3m4!1s0x47225b78e81cc571:0x32dba1079edc5554!8m2!3d51.3380238!4d22.5007038">
+                        Majdan Krasieniński 7D</a>
+                </div>
+                <div class="yt">
+                    <a href="http://youtube.com/dandx" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+                </div>
+                <div class="fb">
+                    <a href="http://facebook.com/dandx" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+                </div>
+                <div class="gplus">
+                    <a href="http://plus.google.com/dandx" target="_blank" class="sociallink"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="tw">
+                    <a href="http://twitter.com" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+                </div>
+                <div style="clear:both;"></div>
+            </div>
+            <div style="clear: both;"></div>
+
+        </div>
+        </div>
+        <div class="footer">
+            Wszelkie prawa zastrzżone DanD 2020 &copy;
+        </div>
+    </body>
 
 </html>
