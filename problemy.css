@@ -55,7 +55,14 @@ body {
     margin: 8rem 10%;
 }
 .fb{
+  padding-left: 45%;
+}
+.fb a{
   display: block;
+  width: 2rem;
+  height: auto;
+  background: #44629e;
+  border-color: #44629e;
   color: white;
   text-align: center;
   padding: 1rem 2rem;
@@ -67,119 +74,7 @@ img {
     height: auto;
     z-index: -5;
     overflow: hidden;
-}/* Floating Social Links */
-
-#fs-links * {
-  box-sizing: border-box; /* Grubość borderów nie będzie dodawana do rozmiaru bloku */
 }
-
-/* Główny kontentr linków - lista ul */
-#fs-links {
-    list-style-type: none; /* usunięcie punktora listy */
-    margin: 0; /* reset marginesów zewnętrznych */
-    padding: 0;  /* reset marginesów wewnętrznych */
-    position: fixed;  /* 'przykleja' linki do okna przegladarki - podczas przewijania strony, linki pozostaną w tym samym miejscu */
-    right: 0; /* odległość linków od prawej krawędzi okna przeglądarki - pozycjonuje slider po prawej stronie */
-    font-size: 0; /* usuwa odstępy pomiędzy elementami listy */
-    top: 30%; /* odległość linków od górnej krawędzi okna przeglądarki */
-}
-
-/* Element listy - li */
-#fs-links li {
-    margin-bottom: 5px; /* zewnętrzny, dolny margines elementu listy - odstępy pomiędzy linkami */
-    position: relative; /* nadaje elementowi listy pozycjonowanie relatywne */
-    right: -200px; /* Pozycjonuje linki (ich część tekstową) poza widocznym obszarem strony - 
-                    * tutaj ustawiamy długość linków, jeżeli zmienimy tę wartość, 
-                    * trzeba również zmienić width w #fs-links li a
-                    */
-    
-    /* Płynne wyjechanie linku */
-    -webkit-transition: all .3s ease; /* prędkość i rodzaj animacji */
-    -o-transition: all .3s ease; /* prędkość i rodzaj animacji */
-    transition: all .3s ease; /* prędkość i rodzaj animacji */
-}
-
-/* Efekt po najechaniu kursorem na link */
-#fs-links li:hover {
-    right: 0; /* Po najechaniu kursorem wskazany link w całości powinien pokazać się w widocznej części okna przeglądarki - raczej nie należy zmieniać */
-}
-
-/* Link właściwy */
-#fs-links li a {
-    font-size: 16px; /* rozmiar czcionki */
-    white-space: nowrap; /* powstrzymuje lamanie tekstu w przypadku, gdy tekst linku jest dluzszy niz szerokosc bloku w ktorym sie znajduje */
-    color: #444; /* kolor czcionki */
-    display: inline-block; /* zmienia sposób wyśeitalania elementu listy */
-    height: 50px; /* wysokość linku */
-    line-height: 50px; /* wysokość lini - pozycjonowanie tekstu linku w pionie - powinien być taki sam jak wysokość linku */
-    border: solid #ddd 1px; /* rodzaj, kolor i grubość obramowania, dla pełnego efektu border w #fs-links li i powinno być takie samo */
-    border-left: none; /* usuwa lewą linię obramowania */
-    width: 200px; /* Długość linków */
-    padding-left: 10px; /* margines wewnętrzny, lewy - odleglosc tekstu od ikony */
-    background: #fff; /* tło pod linkiem */
-}
-
-/* Ikona */
-#fs-links li i {
-    display: inline-block;
-    border: solid #ddd 1px; /* Styl obramowania */
-    border-right: none; /* Usunięcie obramowania z prawej strony */
-    height: 50px; /* Wysokość ikony - najlepiej, aby była równa wysokości linka */
-    line-height: 50px; /* Wyrównanie wertykalne - powinno być równe wysokości ikony */
-    width: 50px; /* szerokość ikony */
-    text-align: center; /* wyrównanie horyzontalne ikony - środkowanie */
-    font-size: 18px; /* rozmiar ikony */
-    vertical-align: top;
-    font-size: 22px; /* rozmiar ikony */
-    color: #fff; /* kolor ikony */
-    position: relative;
-    border-radius: 50px 0 0 50px; /* Zaokrąglenie kantów ikony z lewej strony */
-    background: #fff; /* Tło ikony */
-}
-
-/* Obramowanie ikony */
-#fs-links li i:after {
-    content: "";
-    display: block;
-    border: solid #ddd 1px;
-    position: absolute;
-    top: 3px; bottom: 3px; left: 3px; right: 3px; /* dzięki temu obramowanie ikony mieści się idealnie w środku */
-    border-radius: 50%; /* przekształca kwadrat w koło */
-    background: #ddd; /* tło koła */
-    z-index: -1; /* ustawia warstwę z tłem koła poniżej ikony */
-}
-
-/* Link: facebook */
-#fs-links-facebook:hover i:after {
-    background: #44629e;
-    border-color: #44629e;
-}
-
-/* Link: twitter */
-#fs-links-twitter:hover i:after {
-    background: #48c8f1;
-    border-color: #48c8f1;
-}
-
-/* Link: google-plus */
-#fs-links-google-plus:hover i:after {
-    background: #dd4b39;
-    border-color: #dd4b39;
-}
-/*.footer
-{
-	clear: both;
-	background-color: black;
-	color: white;
-	text-align: center;
-  padding: 1rem;
-  position: relative;
-  margin-top: 2rem;
-  left: 0;
-  bottom: -3;
-  height: 1rem;
-  width: 97%;
-}*/
 .footer {
   position:absolute;
   bottom:0;
