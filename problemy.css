@@ -5,21 +5,24 @@ html, body
   
 }
 
-html {
+html 
+{
   height: 100%;
 }
 
-body {
-   min-height: 100%;
+body
+{
+  min-height: 100%;
   position: fixed;;
   background-image: url(zdj/tloProblem.jpg);
   background-attachment: fixed;
   width: 100%;
   margin: 0px;
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
-.menu {
+.menu 
+{
   list-style-type: none;
   margin: 0;
   padding: 0,125rem;
@@ -27,22 +30,28 @@ body {
   background-color: #2f3640;
 }
 
-.menu li {
+.menu li 
+{
   float: left;
 }
-.menu li a {
+.menu li a 
+{
   display: block;
   color: white;
   text-align: center;
   padding: 1rem 2rem;
   text-decoration: none;
 }
-.menu li a:hover {
+
+.menu li a:hover
+{
   background-color: #111;
 }
-.active {
+.active 
+{
   background-color:black;
 }
+
 .container {
   min-height:100%;
   position:relative;
