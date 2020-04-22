@@ -39,7 +39,7 @@ body
 }
 .moto 
 {
-    margin-left: 60rem;
+    margin-left: 400px;
     margin-right: auto;
     padding-top: 5%;
     display: block;
@@ -59,18 +59,27 @@ body
   }
 @keyframes wyjazd
 {
-  0% { margin-left: -0rem;}
-  5% { margin-left: -10rem;}
-  10% {margin-left: 40px;}
-  20% {margin-left: 80px;}
-  30% {margin-left: 120px;}
-  40% {margin-left: 160px;}
-  50% { margin-left: 200px;}
-  60% {margin-left: 240px;}
-  70% {margin-left: 280px;}
-  80% {margin-left: 320px;}
-  90% {margin-left: 360px;}
-  100% { margin-left:400px ;}
+  0% { margin-left: -200px;}
+  5% { margin-left: -170px;}
+  10% {margin-left: -140px;}
+  15% {margin-left: -110px;}
+  20% {margin-left: -80px;}
+  25% {margin-left: -50px;}
+  30% {margin-left: -20px;}
+  35% {margin-left: 10px;}
+  40% {margin-left: 40px;}
+  45% {margin-left: 70px;}
+  50% {margin-left: 100px;}
+  55% { margin-left: 130px;}
+  60% {margin-left: 160px;}
+  65% {margin-left: 190px;}
+  70% {margin-left: 220px;}
+  75% {margin-left: 250px;}
+  80% {margin-left: 280px;}
+  85% {margin-left: 310px;}
+  90% {margin-left: 340px;}
+  95% {margin-left: 370px;}
+  100% { margin-left: 400px ;}
 }
 .moto
 {
